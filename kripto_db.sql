@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 01, 2026 at 03:45 PM
+-- Generation Time: Mar 01, 2026 at 04:10 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -86,7 +86,9 @@ INSERT INTO `history_kripto` (`id_log`, `teks_asli`, `teks_hasil`, `algoritma`, 
 (3, 'aku kuliah di undip', 'fjn jnmdfa od nsody', 'Affine', 'Enkripsi', '2026-03-01 14:42:06'),
 (4, 'Aku sedang kuliah', 'Biq tlefoh eqpoin', 'Playfair', 'Enkripsi', '2026-03-01 14:42:24'),
 (5, 'aku sudah semester empat', 'omi qnlpl agoqvllz egroa', 'Hill', 'Dekripsi', '2026-03-01 14:42:51'),
-(6, 'aku sudah makan', 'eho azutn igmuu', 'Enigma', 'Dekripsi', '2026-03-01 14:43:06');
+(6, 'aku sudah makan', 'eho azutn igmuu', 'Enigma', 'Dekripsi', '2026-03-01 14:43:06'),
+(7, 'AAAAGGZ0eXBtcDQyAAAAAG1wNDFpc29tAAAAKHV1aWRcpwj7Mo5CBahhZQ7KCpWWAAAADDEwLjAuMjYxMDAuMAAAABRwZGluAAAA... [FILE]', 'DDCFJJB0jAEvhGTaFDDCFJ1zPIIse29yDDCFNKX1fZUeuzm7Ot5FEcmkCS7PFsYBDDCFGGGbOmCzPmAcPGCzPDCFDETbCJnzDDCF... [FILE]', 'Vigenere', 'Enkripsi', '2026-03-01 15:08:52'),
+(8, 'JVBERi0xLjcNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFuZyhlbikgL1N0cnVjdFRyZWVS... [FILE]', 'MTPWXw0yXhcTKmW1irX1HMypIJGvr2XuFIj8ZO9AdTKfU0JedHLfp2rfASCxOJCcImOgNPJrXQXgRocrbqwyU1J0trMjyFTyLENC... [FILE]', 'Hill', 'Enkripsi', '2026-03-01 15:09:23');
 
 -- --------------------------------------------------------
 
@@ -176,7 +178,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('tLmMy1fJNW1qyucQDO9lWlK7esM7p7vnZIMRybOm', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiMWVvQVlEMkxoUnB0Qk9oNVVFTGhmWEVzblN0SXEzTEwwdjRPTjJzOSI7czo5OiJfcHJldmlvdXMiO2E6Mjp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7czo1OiJyb3V0ZSI7czoxMjoia3JpcHRvLmluZGV4Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1772376186);
+('tLmMy1fJNW1qyucQDO9lWlK7esM7p7vnZIMRybOm', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiMWVvQVlEMkxoUnB0Qk9oNVVFTGhmWEVzblN0SXEzTEwwdjRPTjJzOSI7czo5OiJfcHJldmlvdXMiO2E6Mjp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7czo1OiJyb3V0ZSI7czoxMjoia3JpcHRvLmluZGV4Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1772377771);
 
 -- --------------------------------------------------------
 
@@ -280,7 +282,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `history_kripto`
 --
 ALTER TABLE `history_kripto`
-  MODIFY `id_log` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_log` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `jobs`
